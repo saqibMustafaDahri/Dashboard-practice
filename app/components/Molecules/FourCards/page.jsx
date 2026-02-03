@@ -1,8 +1,7 @@
 import React from "react";
 import TypographyAtom from "../../Atoms/TypographyAtom/page";
 import BoxAtom from "../../Atoms/BoxAtom/page";
-
-export default function MetricCard({ icon, label }) {
+export default function FourCards({ icon, label }) {
   return (
     <BoxAtom
       sx={{
@@ -21,8 +20,7 @@ export default function MetricCard({ icon, label }) {
       {React.cloneElement(icon, {
         sx: { color: "white", fontSize: "40px" },
       })}
-
-      <TypographyAtom sx={{ fontSize: "16px", color: "white" }} text={label} />
+      <TypographyAtom sx={{ fontSize: "16px", color: "white" }} text={label} /> 
     </BoxAtom>
   );
 }

@@ -13,7 +13,6 @@ import ShowChartIcon from "@mui/icons-material/ShowChart";
 import PieChartIcon from "@mui/icons-material/PieChart";
 import WaterfallChartIcon from "@mui/icons-material/WaterfallChart";
 import LeaderboardIcon from "@mui/icons-material/Leaderboard";
-
 export default function Dashboard() {
   return (
     <BoxAtom

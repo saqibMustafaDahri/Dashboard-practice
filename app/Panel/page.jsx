@@ -2,8 +2,13 @@
 import React from "react";
 import BoxAtom from "../components/Atoms/BoxAtom/page";
 import SideBar from "../components/Molecules/SideBar/page";
-import FourCards from "../components/Molecules/FourCards/page";
+// import FourCards from "../components/Molecules/FourCards/page";
 import UserDetail from "../components/Molecules/UserDetail/page";
+import FourCards from "../components/Molecules/FourCards/page";
+import ShowChartIcon from "@mui/icons-material/ShowChart";
+import PieChartIcon from "@mui/icons-material/PieChart";
+import WaterfallChartIcon from "@mui/icons-material/WaterfallChart";
+import LeaderboardIcon from "@mui/icons-material/Leaderboard";
 export default function Panel() {
   return (
     <>
@@ -29,7 +34,18 @@ export default function Panel() {
               width: { xs: "100%", md: "80%" },
             }}
           >
-            <FourCards />
+            <BoxAtom
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                gap: "10px",
+              }}
+            >
+              <FourCards icon={<ShowChartIcon />} label="Growth" />
+              <FourCards icon={<PieChartIcon />} label="Shares" />
+              <FourCards icon={<WaterfallChartIcon />} label="Flow" />
+              <FourCards icon={<LeaderboardIcon />} label="Rank" />
+            </BoxAtom>{" "}
             <UserDetail />
           </BoxAtom>
         </BoxAtom>

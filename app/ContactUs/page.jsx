@@ -85,7 +85,6 @@ export default function ContactUs() {
               }}
             />
             <TextField
-              TextField
               fullWidth
               label="Email"
               variant="standard"

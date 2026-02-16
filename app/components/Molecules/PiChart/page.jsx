@@ -19,9 +19,7 @@ export default function PiChart() {
       }}
     >
       <PieChart
-        series={[
-          { innerRadius: 50, outerRadius: 100, data, arcLabel: "value" },
-        ]}
+        series={[{ innerRadius: 0, outerRadius: 120, data, arcLabel: "value" }]}
         {...settings}
       />
     </BoxAtom>

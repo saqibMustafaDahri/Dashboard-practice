@@ -29,6 +29,7 @@ export default function Dashboard() {
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
           paddingRight: { xs: "10px", md: "20px" },
+          paddingLeft: { xs: "10px" },
           gap: "20px",
           alignItems: "flex-start",
         }}

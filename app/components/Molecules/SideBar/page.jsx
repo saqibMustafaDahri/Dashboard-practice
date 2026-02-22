@@ -126,7 +126,6 @@ export default function SideBar() {
             padding: "20px",
             boxShadow: "4px 0px 10px rgba(0,0,0,0.1)",
             backgroundColor: "#001652",
-            // Desktop jaisa scroll behavior mobile drawer me bhi:
             overflowY: "auto",
             scrollbarWidth: "none",
             "&::-webkit-scrollbar": { display: "none" },
@@ -147,10 +146,9 @@ export default function SideBar() {
           position: "sticky",
           top: 0,
           zIndex: 100,
-          // --- SCROLL ADDED HERE ---
-          overflowY: "auto", // Ye scroll enable karta hai
-          scrollbarWidth: "none", // Firefox ke liye scrollbar hide karega
-          "&::-webkit-scrollbar": { display: "none" }, // Chrome/Safari ke liye scrollbar hide karega
+          overflowY: "auto",
+          scrollbarWidth: "none",
+          "&::-webkit-scrollbar": { display: "none" },
         }}
       >
         <SidebarDesign />

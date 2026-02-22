@@ -2,7 +2,6 @@
 import React from "react";
 import BoxAtom from "../components/Atoms/BoxAtom/page";
 import SideBar from "../components/Molecules/SideBar/page";
-// import FourCards from "../components/Molecules/FourCards/page";
 import UserDetail from "../components/Molecules/UserDetail/page";
 import FourCards from "../components/Molecules/FourCards/page";
 import ShowChartIcon from "@mui/icons-material/ShowChart";
